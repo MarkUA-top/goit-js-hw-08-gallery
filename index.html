@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homework 8</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <ul class="gallery js-gallery"></ul>
+
+    <div class="lightbox-backdrop is-hidden">
+      <div class="lightbox js-lightbox">
+        <div class="lightbox__content">
+          <button
+            type="button"
+            class="lightbox__buttonLeft"
+            data-action="close-lightbox"
+          ><img class="" src="./img/prev-button.svg" alt="" /></button>
+          <img class="lightbox__image" src="" alt="" />
+          <button
+            type="button"
+            class="lightbox__buttonRight"
+            data-action="close-lightbox"
+          ><img class="" src="./img/next-button.svg" alt="" /></button>
+        </div>
+
+        <button
+          type="button"
+          class="lightbox__button"
+          data-action="close-lightbox"
+        ></button>
+      </div>
+    </div>
+    <script src="index.js" type="module"></script>
+  </body>
+</html>
